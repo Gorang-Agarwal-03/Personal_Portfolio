@@ -21,11 +21,11 @@ tl.from("nav img", {
     duration: 0.5,
     delay: 0.5,
 })
-tl.from("nav ul", {
+tl.from("nav ul li", {
     y:-20,
     opacity:0,
     duration: 0.5,
-    delay: 0.5,
+    stagger : 0.2,
 })
 tl.from(".header-text", {
     y:-20,
