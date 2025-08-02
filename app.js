@@ -12,3 +12,25 @@ function opentab(tablname){
     document.getElementById(tablname).classList.add("active_tab");
 
 }
+
+var tl = gsap.timeline();
+
+tl.from("nav img", {
+    y:-20,
+    opacity:0,
+    duration: 0.5,
+    delay: 0.5,
+})
+tl.from("nav ul", {
+    y:-20,
+    opacity:0,
+    duration: 0.5,
+    delay: 0.5,
+})
+tl.from(".header-text", {
+    y:-20,
+    opacity:0,
+    duration: 0.5,
+    delay: 0.5,
+    scale: 1,
+})
