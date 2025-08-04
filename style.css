@@ -520,3 +520,10 @@ form .btn{
   }
 }
 
+#msg{
+    color:#91e4f3d5;
+    margin-top: 20px;
+    display: block;
+    font-weight: 500;
+}
+
