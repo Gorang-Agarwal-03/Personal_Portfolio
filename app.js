@@ -34,3 +34,27 @@ tl.from(".header-text", {
     delay: 0.5,
     scale: 1,
 })
+gsap.from(".about-col-1 img",{
+    opacity: 0,
+    duration: 1,
+    x:-500,
+    scrollTrigger: {
+        trigger: ".about-col-1 img",
+        scroller: "body",
+        scrub: 3,
+        //markers: true,
+        start: "top 50%",
+        end: "top 25%",
+}})
+gsap.from(".about-col-2",{
+    opacity: 0,
+    duration: 1,
+    x:500,
+    scrollTrigger: {
+        trigger: ".about-col-1 img",
+        scroller: "body",
+        scrub: 3,
+        //markers: true,
+        start: "top 50%",
+        end: "top 25%",
+}})
